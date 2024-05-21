@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+    <div id="gallery">
+        <div class="image" onclick="enlargeImage('image/Image1.jpg')">
+            <img src="image/Image1.jpg" alt="Image 1">
+        </div>
+        <div class="image" onclick="enlargeImage('image/Image2.jpg')">
+            <img src="image/Image2.jpg" alt="Image 2">
+        </div>
+        <div class="image" onclick="enlargeImage('image/Image3.jpeg')">
+            <img src="image/Image3.jpeg" alt="Image 3">
+        </div>
+    </div>
+    <div id="enlarged-image">
+        <img id="enlarged-img" src="image/Image1.jpg" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
